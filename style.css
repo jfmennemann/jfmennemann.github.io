@@ -1,0 +1,432 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	
+	margin:  0px;
+	padding: 0px;
+	
+	font-family: 'Ubuntu', sans-serif;
+  	font-weight: 300;
+	font-size: 12pt;
+	 		
+}
+
+div.clear {
+	
+  	clear: both;
+  	margin:  0px;
+  	padding: 0px;
+  	
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* header_top */
+
+div#container_header_top {
+	
+	background: rgb(255, 255, 255);
+
+}
+
+
+div#header_top {
+		
+	width: 960px;
+
+	margin: 0px auto;
+  	padding: 5px;
+	
+	background: rgb(255, 255, 255);
+
+}
+
+
+#header_top p {
+	
+	width: 100%;
+		
+	margin-top:    0px;
+	margin-bottom: 0px;
+	margin-left:   0px;
+	margin-right:  0px;
+		
+  	padding-top:    5px;
+	padding-bottom: 5px;
+	padding-left:   0px;
+	padding-right:  0px;
+	
+  	text-align: left;
+	
+	font-size: 36px;
+ 	  	
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* header_center */
+
+div#container_header_center {
+	
+	margin: 0px;
+	padding: 0px;
+
+	font-size: 16pt;
+  	font-weight: 300;	
+
+	background: rgb(42, 42, 42);
+}
+
+
+div#navigation {
+	
+	width: 960px;
+	
+	margin: 0px auto;
+  	padding-top:2px;
+  	padding-bottom: 2px;
+	
+  	background: rgb(42, 42, 42);		
+}
+
+#navigation a {
+	
+	color: rgb(210, 210, 210);
+  	
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: rgb(210, 210, 210);
+}
+
+#navigation ul {
+  	
+  	margin: 0px;
+  	padding: 0px;
+  	
+  	text-align: left;
+}
+
+#navigation li {
+  	
+  	margin-right: 30px;
+  	
+  	padding: 0px;
+  	
+	font-size: 16pt;
+  	display: inline;
+  	  	
+}
+
+#navigation li.active {
+	color: rgb(0, 188, 242);
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* header_bottom */
+
+div#container_header_bottom {
+	
+	background: rgb(210, 210, 210);
+	
+}
+
+div#header_bottom {
+	
+	width: 960px;
+	height: 10px;
+	
+	margin: 0px auto;
+  	padding:0px;
+	 	  	  	
+  	background: rgb(210, 210, 210);
+	
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* main */
+
+div#container_main {
+	
+	margin: 0px;
+	padding: 0px;		
+
+	background: rgb(255,255,255);
+	
+}
+
+div#main {
+  	
+  	width: 960px;
+  	min-height: 1100px;
+	
+	margin: 0px auto;
+  	padding-top: 15px;
+  	padding-bottom: 10px;
+
+	font-size: 12pt;
+	color: rgb(10, 10, 10);
+	  	
+  	background: rgb(255,255,255);
+			
+}
+
+#main a {
+	color: rgb(10, 10, 10);
+}
+
+#main a:hover {
+	color: rgb(10, 10, 10);
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* footer_top */
+
+div#container_footer_top {
+	
+	background: rgb(210, 210, 210);
+	
+}
+
+div#footer_top {
+	
+	width: 960px;
+	height: 10px;
+	
+	margin: 0px auto;
+  	padding:0px;
+	  	
+  	background: rgb(210, 210, 210);
+  	
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* footer_center */
+
+div#container_footer_center {
+	
+	background: rgb(0, 188, 242);
+	
+}
+
+div#footer_center {
+	
+	width: 960px;
+	height: 10px;
+	
+	margin: 0px auto;
+  	padding:0px;
+	 	  	  	
+  	background: rgb(0, 188, 242);
+
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* footer_bottom */
+
+div#container_footer_bottom {
+	
+	background: rgb(42,42,42);
+	
+}
+
+div#footer_bottom {
+	
+	width: 960px;
+	height: 100px;
+	
+	margin: 0px auto;
+  	padding:0px;
+	  	
+  	background: rgb(42,42,42);
+  	
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* item */
+
+.item { 
+	min-height: 100px;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+	overflow: hidden;
+	
+	color: rgb(10,10,10);
+	
+	background-color: rgb(255,255,255);
+
+}
+
+.item img {
+	
+	float:  left;
+    height: auto;
+    
+    margin-top:    0px;
+    margin-bottom: 5px;
+    margin-left:   0px;
+    margin-right:  10px;
+    
+  	padding-right:  0px;
+  	padding-bottom: 0px;
+  		
+}
+
+div.item_title{
+	
+	margin-bottom: 5px;
+	padding: 0px;
+	
+	font-weight: 400;
+  	color: rgb(10,10,10);
+}
+
+div.item_authors{
+	
+	margin-bottom: 5px;
+	padding: 0px;
+	
+	font-style: italic;
+	color: rgb(10,10,10);
+	
+}
+
+div.item_journal{
+	
+	margin-bottom: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+	color: rgb(10,10,10);
+	  	  	
+}
+
+
+
+div.item_description{
+	
+	margin-bottom: 10px;
+	padding: 0px;
+
+	line-height: 1.4;
+	color: rgb(10,10,10);
+		
+}
+
+.item_description p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+	color: rgb(10,10,10);
+}
+
+.item_links_title {
+  
+	margin-right: 5px;
+	
+	padding: 0px;
+	
+	float: left;
+	
+  	font-weight: 400;
+	color: rgb(10,10,10);
+  	
+}
+
+.item_links {
+	
+	margin-right: 15px;
+	
+	padding: 0px;
+	
+  	float: left;
+
+	color: rgb(10,10,10);
+  	
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+div.separator_thin_grey {
+		
+  	clear: both;
+  	
+  	margin: 0px;
+  	padding: 0px;
+	
+	background: white;
+	
+	border-top: 1px solid rgb(210,210,210);
+	
+}
+
+
+
+
+
+h2 {
+  	
+  	margin: 0px;
+  	
+  	padding-top: 10px;
+  	padding-bottom: 5px;
+  	
+  	font-size: 16pt;
+  	font-weight: 300;
+  	
+  	color: rgb(10,10,10);
+  	  	
+  	border-bottom: 1px solid rgb(10,10,10);
+
+}
+
+
+
+
+
+
+
+
+
+
