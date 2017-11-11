@@ -71,18 +71,15 @@
 
 			<div class="item">
 				
-				
-				<img src="projects/2017_the_sem_as_an_efficient_tool_for_transient_simulations_of_hydraulic_systems/		
-							water_hammer_1_time_evolution_q.jpg" width="340" height="97" alt=""/>
-				
-				
 				<!--
 				<img src="projects/2017_the_sem_as_an_efficient_tool_for_transient_simulations_of_hydraulic_systems/		
-							perturbation_p.png" width="340" height="97" alt=""/>
+							water_hammer_1_time_evolution_q.jpg" width="340" height="97" alt=""/>
 				-->
 				
+				
+				
 				<div class="item_title">
-	 				The spectral element method as an efficient tool for transient simulations of hydraulic systems
+	 				Early- and late-lumping observer designs for long hydraulic pipelines: Application to pumped storage power plants
 	 			</div>
 				
 				<!--
@@ -92,7 +89,7 @@
 				-->
 				
 				<div class="item_authors">
-					Jan-Frederik Mennemann, Lukas Marko, Jakob Schmidt, Wolfgang Kemmetmüller and Andreas Kugi
+					Lukas Marko, Jan-Frederik Mennemann, Lukas Jadachowski, Wolfgang Kemmetmüller and Andreas Kugi
 		 		</div>
 				
 				<div class="item_description">
@@ -101,32 +98,41 @@
 
 					<strong>Abstract.</strong>
 					
-					This paper presents transient numerical simulations of hydraulic systems by means of the 
-					spectral element method (SEM). 
-					Along with a detailed description of the underlying numerical method, it is shown that the 
-					SEM yields highly accurate numerical approximations at modest computational costs. 
-					In order to enable fast explicit time stepping methods, the boundary conditions are imposed weakly 
-					using a numerically stable upwind discretization. 
-					The benefits of the SEM in the area of hydraulic system simulations are demonstrated in various 
-					examples including several simulations of strong water hammer effects. 
-					Due to its exceptional convergence characteristics, the SEM is particularly well suited to be used 
-					in real-time capable control applications. 
-					As an example, it is shown that the time evolution of pressure waves in a large scale 
-					pumped-storage power plant can be well approximated using a low-dimensional system representation 
-					utilizing a minimum number of dynamical states. 
+					Pumped storage power plants typically feature very long hydraulic pipelines, which
+					can be modeled by a set of partial differential equations. The estimation of the 
+					pressure and volumetric flow along the pipes is an important task for the operation of
+					such a plant. Therefore, this work compares different early- and late-lumping based
+					observer designs for this system. Two late-lumping observers, a Lyapunov-based
+					design and an observer using the backstepping design method, are examined. The
+					Lyapunov-based approach uses a simple boundary correction to stabilize the 
+					estimation error dynamics. In contrast, the backstepping-based approach allows to utilize
+					additional in-domain corrections to obtain a faster rate of convergence. For the 
+					implementation of these distributed-parameter observers the spectral element method as a
+					flexible and computationally efficient discretization method is introduced. It is shown
+					that, compared to the Lyapunov-based design, the discretization of the 
+					backstepping-based design requires additional spatial grid points for the accurate approximation of
+					its feedback gains. For the early-lumping approach, the spectral element method is
+					used to approximate the model equations by a system of differential equations. Based
+					on this approximation an Extended Kalman Filter is designed. All observer designs
+					are validated and compared for a representative test case. 
 					
 					</p>
 
 	 			</div>
 				
+				<!--
 				<div class="item_links_title">Article:</div>
 		  		<div class="item_links">
-					<!--					
+										
 					<a href="http://www.sciencedirect.com/science/article/pii/S002199911400463X">
 						final version</a> (journal website) <br />
-					-->		   			
+					
+							   			
 					<a href="https://arxiv.org/abs/1705.02118">preprint</a> (arXiv) 
-		  		</div>
+						  		
+				</div>
+				-->
+				
 
 			</div>
 			
@@ -139,13 +145,66 @@
 
 			
 	 		<h2>Publications</h2>
-			
+
+
 			<div class="item">
 				
-				<!--
-				<img src="projects/2016_simul_of_wave_effects_in_pumped_storage_power_plants/shape_functions_website.png" 
-									width="340" height="97" alt=""/>
-				-->
+				
+				<img src="projects/2017_the_sem_as_an_efficient_tool_for_transient_simulations_of_hydraulic_systems/		
+							water_hammer_1_time_evolution_q.jpg" width="340" height="97" alt=""/>
+				
+				
+				<div class="item_title">
+	 				The spectral element method as an efficient tool for transient simulations of hydraulic systems
+	 			</div>
+				
+				
+				<div class="item_journal">
+					Applied Mathematical Modelling 54 (2018) 627&ndash;647
+	 			</div>
+				
+				
+				<div class="item_authors">
+					Jan-Frederik Mennemann, Lukas Marko, Jakob Schmidt, Wolfgang Kemmetmüller and Andreas Kugi
+		 		</div>
+				
+				<div class="item_description">
+
+	 				<p>
+
+					<strong>Abstract.</strong>
+					
+					This paper presents transient numerical simulations of hydraulic systems in engineering 
+					applications using the spectral element method (SEM). Along with a detailed description 
+					of the underlying numerical method, it is shown that the SEM yields highly accurate numerical 
+					approximations at modest computational costs, which is in particular useful for 
+					optimization-based control applications. In order to enable fast explicit time stepping methods, 
+					the boundary conditions are imposed weakly using a numerically stable upwind discretization. 
+					The benefits of the SEM in the area of hydraulic system simulations are demonstrated in various 
+					examples including several simulations of strong water hammer effects. 
+					Due to its exceptional convergence characteristics, the SEM is particularly well suited to be used 
+					in real-time capable control applications. As an example, it is shown that the time evolution 
+					of pressure waves in a large scale pumped-storage power plant can be well approximated using a 
+					low-dimensional system representation utilizing a minimum number of dynamical states.  
+					
+					</p>
+
+	 			</div>
+				
+				<div class="item_links_title">Article:</div>
+		  		<div class="item_links">					
+					<a href="https://doi.org/10.1016/j.apm.2017.10.010">
+						final version</a> (journal website) <br />
+					<a href="https://arxiv.org/abs/1705.02118">preprint</a> (arXiv) 
+		  		</div>
+
+			</div>
+
+
+			<div class="separator_thin_grey"> </div>
+
+			
+			<div class="item">
 				
 				<div class="item_title">
 	 				Simulation of wave effects in pumped-storage power plants using the spectral element
