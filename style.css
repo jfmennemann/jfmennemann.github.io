@@ -48,7 +48,7 @@ div#header_top {
 	
 	width: 100%;
 		
-	margin-top:    0px;
+	margin-top:    20px;
 	margin-bottom: 0px;
 	margin-left:   0px;
 	margin-right:  0px;
@@ -195,6 +195,37 @@ div#main {
 
 
 
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/* footer */
+
+div#container_footer {
+	
+	background: rgb(255, 255, 255);
+	
+}
+
+div#footer {
+	
+	width: 960px;
+	height: 25px;
+	
+	margin: 0px auto;
+  	padding:0px;
+	  	
+  	background: rgb(255, 255, 255);
+  	
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
 /*-------------------------------------------------------------------------------------------------*/
 /* footer_top */
 
@@ -257,8 +288,8 @@ div#footer_bottom {
 	width: 960px;
 	height: 100px;
 	
-	margin: 0px auto;
-  	padding:0px;
+	margin: 200px auto;
+  	padding:200px;
 	  	
   	background: rgb(42,42,42);
   	
