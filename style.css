@@ -79,7 +79,8 @@ div#container_header_center {
 	font-size: 16pt;
   	font-weight: 300;	
 
-	background: rgb(42, 42, 42);
+	/* background: rgb(42, 42, 42); */
+	background: rgb(255, 255, 255);
 }
 
 
@@ -87,22 +88,25 @@ div#navigation {
 	
 	width: 960px;
 	
-	margin: 0px auto;
+	margin: 10px auto;
   	padding-top:2px;
   	padding-bottom: 2px;
 	
-  	background: rgb(42, 42, 42);		
+  	/*background: rgb(42, 42, 42);*/		
+	background: rgb(255, 255, 255);	
 }
 
 #navigation a {
 	
-	color: rgb(210, 210, 210);
+	/* color: rgb(210, 210, 210); */
+	color: rgb(100, 100, 100);
   	
 	text-decoration: none;
 }
 
 #navigation a:hover {
-	color: rgb(210, 210, 210);
+	/* color: rgb(210, 210, 210); */
+	color: rgb(0, 0, 0);
 }
 
 #navigation ul {
@@ -125,7 +129,8 @@ div#navigation {
 }
 
 #navigation li.active {
-	color: rgb(0, 188, 242);
+	/* color: rgb(0, 188, 242); */
+	color: rgb(0, 0, 0);
 }
 /*-------------------------------------------------------------------------------------------------*/
 
@@ -137,18 +142,20 @@ div#navigation {
 div#container_header_bottom {
 	
 	background: rgb(210, 210, 210);
+	/* background: rgb(10, 10, 10); */
 	
 }
 
 div#header_bottom {
 	
 	width: 960px;
-	height: 10px;
+	height: 2px;
 	
 	margin: 0px auto;
   	padding:0px;
 	 	  	  	
-  	background: rgb(210, 210, 210);
+  	/* background: rgb(210, 210, 210); */
+	background: rgb(10, 10, 10);
 	
 }
 /*-------------------------------------------------------------------------------------------------*/
